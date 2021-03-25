@@ -10,7 +10,7 @@ First thing, install the node packages with `npm install`. To serve the Vue proj
 
 One note about the setup is that this project has [Vue Auto Routing](https://github.com/ktsn/vue-cli-plugin-auto-routing) set up, so the routes are based on the file path in the `pages` directory. Otherwise, it is a pretty standard Vue 2 starter project.
 
-### Compiles, minifies, and encrypts for production
+### Compile, minify, and encrypt for production
 
 To compile and encrypt the SPA, run `npm run build`. This is a chained command that compiles the SPA and afterwards encrypts it with the boilerplate that we chose. The boilerplate is called `pwd-template.html`. Feel free to edit this to your hearts content. If you want to change any of the encryption options, edit the command in the `package.json` file under `scripts`.
 
